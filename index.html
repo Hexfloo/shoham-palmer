@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Landing Page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif; /* Added Poppins font */
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
     header {
-      background-color: #333;
+      background-color: #040D12;
       color: white;
       text-align: center;
       padding: 1rem;
     }
 
     .hero {
-      background-image: url('your-hero-image.jpg'); /* Add your hero image URL here */
+      background-image: url('your-hero-image.jpg');
       background-size: cover;
       background-position: center;
       color: white;
@@ -29,12 +30,13 @@
     }
 
     #projects {
+      background-color: #93B1A6;
       padding: 4rem 0;
       text-align: center;
     }
 
     footer {
-      background-color: #333;
+      background-color: #183D3D;
       color: white;
       text-align: center;
       padding: 1rem;
@@ -42,12 +44,18 @@
       bottom: 0;
       width: 100%;
     }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Your Name</h1>
     <p>Welcome to My Landing Page</p>
+    <a href="#" target="_blank">LinkedIn</a>
   </header>
 
   <div class="hero">
@@ -59,21 +67,20 @@
     <h2>My Projects</h2>
     <p>Explore some of my projects below:</p>
 
-    <!-- Add your Tableau and Google Sheets projects here -->
     <div>
       <h3>Tableau Project</h3>
       <p>Short description of your Tableau project.</p>
-      <!-- Add more details or links as needed -->
     </div>
 
     <div>
       <h3>Google Sheets Project</h3>
       <p>Short description of your Google Sheets project.</p>
-      <!-- Add more details or links as needed -->
     </div>
   </section>
 
   <footer>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></p>
     <p>&copy; 2023 Your Name. All rights reserved.</p>
   </footer>
 </body>
