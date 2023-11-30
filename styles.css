@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #222222;
+  color: #e4e57f;
+  text-align: left;
+  padding: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.hero {
+  background-image: url("");
+  background-color: #222222;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#projects {
+  background-color: #222222;
+  color: #e4e57f;
+  padding: 4rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px 5px 0 0;
+  background-color: #343333;
+  border-bottom: 3px solid #e4e57f;
+}
+
+.project-card-text {
+  text-align: left;
+  width: 50%;
+}
+
+.project-card-image {
+  background-color: none;
+  width: 50%;
+  margin: 0 1rem;
+}
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #2e2e2e;
+  color: #e4e57f;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 1rem 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.linkedin {
+  background: #0e76a8;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 3px;
+}
+
+.youtube {
+  color: white;
+  background: #c4302b;
+  padding: 0.3rem 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 3px;
+}
