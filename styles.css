@@ -105,7 +105,7 @@
   }
 
   section h4 {
-    width: 90%;
+    width: 100%;
     font-size: 2rem;
     text-align: start;
     padding: 0;
@@ -652,6 +652,22 @@
   .project-card-text {
     width: 100%;
     margin: 0;
+  }
+  .projects-card-link {
+    color: var(--bright-text-color);
+    text-decoration: none;
+  }
+
+  .project-card:hover {
+    background-color: var(--main-accent-color);
+    color: var(--secondary-bg-color);
+    border-left: 3px solid var(--bright-text-color);
+  }
+
+  #my-personality {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
   }
 }
 .projects-card-link {
