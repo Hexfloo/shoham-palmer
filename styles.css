@@ -23,6 +23,7 @@
     text-align: left;
     width: 100%;
     padding: 0;
+    text-shadow: var(--main-bg-color) 1px 0 5px;
   }
 
   header h1 {
@@ -61,13 +62,16 @@
     background-image: url("https://images.unsplash.com/photo-1561816273-56c6232d3990?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-image: url("https://images.unsplash.com/photo-1578589303256-5675a36857c8?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-image: url("https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
     background-color: var(--main-bg-color);
     background-size: cover;
     background-position: center;
     color: var(--bright-text-color);
     text-align: left;
     padding: 3rem 6rem 6rem;
+    text-shadow: var(--secondary-bg-color) 1px 0 5px;
   }
+
   .hero h2 {
     font-size: 4rem;
     margin: 12rem 0 0;
@@ -240,6 +244,7 @@
     padding: 0;
     margin: 0;
     font-size: medium;
+    text-shadow: var(--main-bg-color) 1px 0 5px;
   }
 
   header h1 {
@@ -285,6 +290,7 @@
     color: var(--bright-text-color);
     text-align: left;
     padding: 0 0 1rem 0;
+    text-shadow: var(--secondary-bg-color) 1px 0 5px;
   }
   .hero h2 {
     font-size: 4rem;
@@ -330,7 +336,7 @@
   }
 
   #i-believe h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   #projects {
@@ -461,6 +467,7 @@
     width: 100%;
     padding: 0;
     font-size: medium;
+    text-shadow: var(--main-bg-color) 1px 0 5px;
   }
 
   header h1 {
@@ -508,6 +515,7 @@
     color: var(--bright-text-color);
     text-align: left;
     padding: 0 0 1rem 0;
+    text-shadow: var(--secondary-bg-color) 1px 0 5px;
   }
   .hero h2 {
     font-size: 3rem;
