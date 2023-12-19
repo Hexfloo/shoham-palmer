@@ -250,7 +250,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: none;
     color: var(--main-accent-color);
     text-align: left;
@@ -262,7 +262,7 @@
   }
 
   header h1 {
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 2rem 0;
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
     font-weight: 700;
@@ -280,7 +280,7 @@
   }
 
   li {
-    padding: 0 3rem;
+    padding: 1rem 1rem;
     font-weight: 600;
   }
 
@@ -306,15 +306,15 @@
     background-position: center;
     color: var(--bright-text-color);
     text-align: left;
-    padding: 0 0 1rem 0;
+    padding: 3rem 6rem 6rem;
     text-shadow: var(--secondary-bg-color) 1px 0 5px;
   }
   .hero h2 {
     font-size: 4rem;
-    margin: 3rem 3rem 3rem 5rem;
+    margin: 3rem 0rem 0rem;
     line-break: strict;
     font-family: "Oswald", sans-serif;
-    text-align: center;
+    text-align: left;
   }
 
   .sections-container {
